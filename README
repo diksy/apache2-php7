@@ -4,3 +4,7 @@ Simple Use:
 Custom Apache2 Config:
 - docker run -p 80:80 -v /path/to/source/code:/var/www/html -v /path/to/apache2/config:/etc/apache2/sites-enabled -d diksy/apache2-php7
 - docker run -p 80:80 -v /path/to/source/code:/var/www/html -v /path/to/files:/var/www/files -v /path/to/apache2/config:/etc/apache2/sites-enabled -d diksy/apache2-php7
+
+*changelog
+1.1     - add postgresql support
+        - update default ServerName to localhost
